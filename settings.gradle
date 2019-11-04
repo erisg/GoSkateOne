@@ -1,0 +1,2 @@
+include ':app', ':AuthGoSkate', ':MapGoSkate', ':ViewUtilsGoSkate', ':RepositoryGoSkate', ':WebServiceGoSkate', ':ViewValueObject', ':ContentGoSkate'
+rootProject.name='GoSkate'
