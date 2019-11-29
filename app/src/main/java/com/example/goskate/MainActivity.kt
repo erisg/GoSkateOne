@@ -8,7 +8,6 @@ import com.example.contentgoskate.menuContent.MenuContainer
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var  navControler : NavController
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)

@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    tools:context=".PostGoSkate">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imagePost"
         android:layout_width="342dp"
         android:layout_height="325dp"
         android:layout_marginTop="59dp"
@@ -25,6 +26,9 @@
         android:layout_height="39dp"
         android:layout_marginBottom="36dp"
         android:background="@drawable/auth_edith"
+        android:gravity="center"
+        android:hint="PARCHE"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/parche"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -36,13 +40,16 @@
         android:layout_height="39dp"
         android:layout_marginBottom="52dp"
         android:background="@drawable/auth_edith"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:gravity="center"
+        android:hint="TRUCO"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_post"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_post"
         android:layout_width="136dp"
         android:layout_height="53dp"
         android:layout_marginBottom="40dp"

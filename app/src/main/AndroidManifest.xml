@@ -27,6 +27,7 @@
 
         <activity android:name="com.example.authgoskate.ui.NewUser" />
         <activity android:name="com.example.contentgoskate.menuContent.MenuContainer" />
+        <activity android:name="com.example.contentgoskate.Post" />
 
     </application>
 
